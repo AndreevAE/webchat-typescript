@@ -1,0 +1,11 @@
+.flex {
+    /* basic styling */
+    width: 350px;
+    height: 200px;
+    border: 1px solid #555;
+    font: 14px Arial;
+
+    /* flexbox setup */
+    /*display: flex;
+    flex-direction: row;*/
+}

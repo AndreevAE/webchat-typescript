@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/AndreevAE/webchat-typescript/issues"
   },
-  "homepage": "https://github.com/AndreevAE/webchat-typescript#readme"
+  "homepage": "https://github.com/AndreevAE/webchat-typescript#readme",
+  "dependencies": {
+    "node-static": "^0.7.9",
+    "ws": "^1.1.1"
+  }
 }

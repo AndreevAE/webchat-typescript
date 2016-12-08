@@ -1,10 +1,11 @@
-var server = require("./server");
-var router = require("./router");
-var requestHandlers = require("./requestHandlers");
+var server = require("./src/server");
+var router = require("./src/router");
+var requestHandlers = require("./src/requestHandlers");
 
 var handle = {};
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
-handle["/upload"] = requestHandlers.upload;
+handle["/chat"] = requestHandlers.chat;
 
-server.start(router.route, handle);
+//server.start(router.route, handle);
+server.startWS();
