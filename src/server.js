@@ -38,7 +38,7 @@ function startWS() {
 
   var wss = new WebSocketServer({server: "ws:" + hostname, port: webSocketServerPort});
   wss.on('connection', function(ws) {
-    console.log
+
     // TODO ID func;
     // TODO add to online listeners
     var id = Math.random();
